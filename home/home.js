@@ -34,4 +34,29 @@ dots.forEach((li, key) => {
 })
 window.onresize = function(event) {
     reloadSlider();
+}
+
+function updateCartCount() {
+    const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
+    itemCountElement.textContent = totalItems;
+}
+
+function handleCartActions(event) {
+    const target = event.target;
+    const itemId = parseInt(target.getAttribute('data-id'));
+    const quantityInput = document.querySelector(`.quantity[data-id="${itemId}"]`);
+    const cartItemIndex = cart.findIndex(item => item.id === itemId);
+
+    if (target.classList.contains('plus')) {
+        cart[cartItemIndex].quantity += 1;
+    } else if (target.classList.contains('minus')) {
+        if (cart[cartItemIndex].quantity > 1) {
+            cart[cartItemIndex].quantity -= 1;
+        } else {
+            cart.splice(cartItemIndex, 1); // Remove the item if quantity is 0
+        }
+    }
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartCount();
 };

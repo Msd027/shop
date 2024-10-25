@@ -220,6 +220,23 @@ body {
     display: block;
     cursor: pointer;
     margin-top: 10px;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.item-count {
+    position: absolute; /* Positioning the count */
+    top: -2px; /* Adjust as necessary */
+    right: 10px; /* Adjust as necessary */
+    background-color: rgb(145, 0, 0); /* Red background */
+    color: white; /* White text */
+    border-radius: 50%; /* Circular shape */
+    width: 12px; /* Width of the dot */
+    height: 12px; /* Height of the dot */
+    display: flex; /* Center the text */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    font-size: 9px; /* Font size for the number */
 }
 
 .cart-link {
