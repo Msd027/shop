@@ -499,7 +499,7 @@ label {
     
 }
 
-@media only screen and (max-width: 1558px) and (min-width:1370px)
+@media only screen and (max-width: 1558px) and (min-width:480px)
 {
     .list a{
         font-size: .8rem;
@@ -518,23 +518,20 @@ label {
         font-size: .85rem;
         color: rgb(107, 2, 2);
     }
-    
-}
-@media only screen and (max-width: 1370px)
-{
-    .list a{
-        font-size: .75rem;
-    }
-    header img{
-        width: 5rem;
-        margin-top: .2rem;
-        cursor: pointer;
-    }
-    .list a:hover {
-        text-shadow: 1px 1px 4px #ff0000;
+        .list2 h5{
         font-size: .8rem;
-        color: rgb(107, 2, 2);
     }
-    
+    .list2 p{
+        font-size: .8rem;
+    }
+    .social{
+        margin-top: .7%;
+    }
+    .social h5{
+        font-size: .8rem;
+    }
+    .social .link i{
+        font-size: 1.2rem;
+    }
 }
 
