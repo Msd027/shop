@@ -8,6 +8,11 @@
     padding: 0;
 }
 
+html, body {
+    height: 64.2%; /* Make sure html and body take full height */
+    margin: 0; /* Remove default margin */
+}
+
 header {
     background: linear-gradient(90deg, rgb(251, 255, 209) 0%, rgb(220, 255, 91) 100%);
     width: 100%;
