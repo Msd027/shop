@@ -540,12 +540,7 @@ body {
         height: 80%;
     }
     .container{
-        margin: 0;
-        padding: 0;
-        display: grid;
-        place-items: center;
-        width: 100%;
-        height: 799px;
+        height: 499px;
     
     }
     .list a:hover {
@@ -556,7 +551,7 @@ body {
     
 }
 
-@media only screen and (max-width: 1558px) and (min-width:1370px)
+@media only screen and (max-width: 1558px) and (min-width:480px)
 {
     .list a{
         font-size: .8rem;
@@ -570,27 +565,71 @@ body {
         width: 7rem;
         height: 80%;
     }
+    .heading{
+        font-size: 1rem;
+    }
     .list a:hover {
         text-shadow: 1px 1px 4px #ff0000;
         font-size: .85rem;
         color: rgb(107, 2, 2);
     }
-    
-}
-@media only screen and (max-width: 1370px)
-{
-    .list a{
-        font-size: .75rem;
-    }
-    header img{
-        width: 5rem;
-        margin-top: .2rem;
-        cursor: pointer;
-    }
-    .list a:hover {
-        text-shadow: 1px 1px 4px #ff0000;
+    .name{
+        margin-top: 5px;
         font-size: .8rem;
-        color: rgb(107, 2, 2);
     }
     
+    .cost{
+        margin-top: 5px;
+        font-size: .8rem;
+    }
+    
+    .filter h1{
+        font-size: 1.5rem;
+    }
+
+    .filter h3{
+        font-size: 1.05rem;
+    }
+
+    .text-box{
+        font-size: .93rem;
+    }
+    .container{
+        height: 479px;
+    }
+    .quantity-box button {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+    
+    .quantity-box input {
+        width: 25px;
+        font-size: 12px;
+        margin: 0 10px;
+    }
+    .add-to-cart {
+        padding: 7px 10px; /* Add padding */
+        font-size: 12.5px; /* Increase font size */
+    }
+    
+    .add-to-cart:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: scale(1.04); /* Slightly enlarge button on hover */
+    }
+    .list2 h5{
+        font-size: .8rem;
+    }
+    .list2 p{
+        font-size: .8rem;
+    }
+    .social{
+        margin-top: .7%;
+    }
+    .social h5{
+        font-size: .8rem;
+    }
+    .social .link i{
+        font-size: 1.2rem;
+    }
 }
