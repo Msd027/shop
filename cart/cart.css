@@ -528,7 +528,7 @@ h1 {
         font-size: .85rem;
         color: rgb(107, 2, 2);
     }
-        .list2 h5{
+    .list2 h5{
         font-size: .8rem;
     }
     .list2 p{
@@ -542,5 +542,37 @@ h1 {
     }
     .social .link i{
         font-size: 1.2rem;
+    }
+    .item img{
+        width: 1.5rem;
+    }
+    .item-name{
+        font-size: .85rem;
+    }
+    .cart-container{
+        width: 70%;
+        height: 92%;
+        margin-bottom: 4%;
+    }
+    .quantity-controls button{
+        font-size: .7rem;
+    }
+    .quantity-controls span{
+        font-size: .85rem;
+    }
+    .amount{
+        font-size: .85rem;
+    }
+    .remove{
+        font-size: .8rem;
+    }
+    #cart-total{
+        font-size: 1.1rem;
+    }
+    #checkout-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin-top: 4%;
     }
 }
