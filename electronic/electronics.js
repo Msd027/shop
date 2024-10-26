@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "https://i.ibb.co/YjgzBK1/ele1.jpg",
             name: "truke Buds F1 Ultra Earbuds",
             colour: "black",
-            description: "60H Playtime, Crystal-Clear Calls, Fast Charging, Bluetooth 5.3, Noise Cancellation, Gaming Mode",
+            description: "60H Playtime, Fast Charging, Bluetooth 5.3, ENC, Gaming Mode",
             cost: 799.00
         },
         {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "https://i.ibb.co/9v8QycF/ele2.jpg",
             name: "TROXXON Multifunctional Cable",
             colour: "Multi-Colour",
-            description: "Multi-Type Charging Line Convertor USB Type C Adapter Tool Contains Sim Card Slot Tray Eject Pin",
+            description: "Multi-Type Charging Line Convertor, Sim Ejector Pin",
             cost: 199.00
         },
         {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "https://i.ibb.co/tZF3Bjq/ele4.jpg",
             name: "ZEBRONICS THUNDER Bluetooth",
             colour: "Black",
-            description: "60H Backup, Gaming Mode, Dual Pairing, ENC, AUX, Micro SD, Voice assistant, Comfortable Earcups",
+            description: "60H Backup, Gaming Mode, Dual Pairing, ENC, AUX, Micro SD",
             cost: 799.00
         },
         {
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: "https://i.ibb.co/4Rctcbh/ele5.jpg",
             name: "Universal Travel Adapter",
             colour: "Black",
-            description: "Travel Adapter and Wall Charger with USB Ports with Multi Type Power Outlet USB 2.1A,100-250 Voltage",
+            description: "Travel Adapter and Wall Charger with USB Ports",
             cost: 555.00
         }
     ];
