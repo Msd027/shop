@@ -528,7 +528,7 @@ body {
 @media only screen and (max-width: 1813px) and (min-width:1558px)
 {
     .list a{
-        font-size: .9rem;
+        font-size: .85rem;
     }
     header img{
         width: 7rem;
@@ -536,7 +536,7 @@ body {
         cursor: pointer;
     }
     header img:hover{
-        width: 6rem;
+        width: 7.5rem;
         height: 80%;
     }
     .container{
