@@ -480,8 +480,8 @@ h1 {
 
 @media only screen and (max-width: 1813px) and (min-width:1558px)
 {
-    .list a{
-        font-size: .9rem;
+        .list a{
+        font-size: .84rem;
     }
     header img{
         width: 7rem;
@@ -489,22 +489,32 @@ h1 {
         cursor: pointer;
     }
     header img:hover{
-        width: 6rem;
+        width: 7.5rem;
         height: 80%;
     }
-    .container{
-        margin: 0;
-        padding: 0;
-        display: grid;
-        place-items: center;
-        width: 100%;
-        height: 799px;
     
-    }
     .list a:hover {
         text-shadow: 1px 1px 4px #ff0000;
-        font-size: 1rem;
+        font-size: 9rem;
         color: rgb(107, 2, 2);
+    }
+    .right i{
+        font-size: .9rem;
+    }
+    .list2 h5{
+        font-size: .8rem;
+    }
+    .list2 p{
+        font-size: .8rem;
+    }
+    .social{
+        margin-top: .7%;
+    }
+    .social h5{
+        font-size: .8rem;
+    }
+    .social .link i{
+        font-size: 1.2rem;
     }
     
 }
