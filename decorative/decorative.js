@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="text-box">
                     <h2 class="heading">${item.name}</h2>
                     <p class="offer">${item.description}</p>
-                    <p>${item.quantity}</p>
+                    <p>${item.material}</p>
                     <p>₹${item.cost.toFixed(2)}</p>
                 </div>
                 <div class="add-to-cart-box">
