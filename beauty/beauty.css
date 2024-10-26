@@ -546,7 +546,7 @@ body {
     
     .list a:hover {
         text-shadow: 1px 1px 4px #ff0000;
-        font-size: 9rem;
+        font-size: .9rem;
         color: rgb(107, 2, 2);
     }
     .right i{
