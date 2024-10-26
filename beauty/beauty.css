@@ -532,7 +532,7 @@ body {
 @media only screen and (max-width: 1813px) and (min-width:1558px)
 {
     .list a{
-        font-size: .9rem;
+        font-size: .84rem;
     }
     header img{
         width: 7rem;
@@ -540,19 +540,77 @@ body {
         cursor: pointer;
     }
     header img:hover{
-        width: 6rem;
+        width: 7.5rem;
         height: 80%;
+    }
+    
+    .list a:hover {
+        text-shadow: 1px 1px 4px #ff0000;
+        font-size: 9rem;
+        color: rgb(107, 2, 2);
+    }
+    .right i{
+        font-size: .9rem;
+    }
+    .name{
+        margin-top: 5px;
+        font-size: .9rem;
+    }
+    
+    .cost{
+        margin-top: 5px;
+        font-size: .9rem;
+    }
+    
+    .filter h1{
+        font-size: 1.2rem;
+    }
+
+    .filter h3{
+        font-size: 1.1rem;
+    }
+
+    .text-box{
+        font-size: .97rem;
     }
     .container{
         height: 499px;
-    
     }
-    .list a:hover {
-        text-shadow: 1px 1px 4px #ff0000;
-        font-size: 1rem;
-        color: rgb(107, 2, 2);
+    .quantity-box button {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
     }
     
+    .quantity-box input {
+        width: 25px;
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    .add-to-cart {
+        padding: 7px 10px; /* Add padding */
+        font-size: 14px; /* Increase font size */
+    }
+    
+    .add-to-cart:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: scale(1.04); /* Slightly enlarge button on hover */
+    }
+    .list2 h5{
+        font-size: .8rem;
+    }
+    .list2 p{
+        font-size: .8rem;
+    }
+    .social{
+        margin-top: .7%;
+    }
+    .social h5{
+        font-size: .8rem;
+    }
+    .social .link i{
+        font-size: 1.2rem;
+    }
 }
 
 @media only screen and (max-width: 1558px) and (min-width:480px)
