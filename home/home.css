@@ -381,7 +381,7 @@ body {
 
 .heading{
     text-align: center;
-    font-size: 2.3vh;
+    font-size: 1rem;
     font-family: "Nunito";
     font-weight: bolder;
 }
@@ -389,7 +389,7 @@ body {
 .offer{
     text-align: center;
     font-family:'Monda';
-    font-size: 1.6vh;
+    font-size: .8rem;
 }
 
 .box1:hover{
@@ -535,44 +535,6 @@ body {
     
 }
 
-/*@media only screen and (max-width: 1558px) and (min-width:1370px)
-{
-    .list a{
-        font-size: .8rem;
-    }
-    header img{
-        width: 6rem;
-        margin-top: .2rem;
-        cursor: pointer;
-    }
-    header img:hover{
-        width: 7rem;
-        height: 80%;
-    }
-    .list a:hover {
-        text-shadow: 1px 1px 4px #ff0000;
-        font-size: .85rem;
-        color: rgb(107, 2, 2);
-    }
-    
-}
-@media only screen and (max-width: 1370px)
-{
-    .list a{
-        font-size: .75rem;
-    }
-    header img{
-        width: 5rem;
-        margin-top: .2rem;
-        cursor: pointer;
-    }
-    .list a:hover {
-        text-shadow: 1px 1px 4px #ff0000;
-        font-size: .8rem;
-        color: rgb(107, 2, 2);
-    }
-    
-}*/
 @media only screen and (max-width: 1558px) and (min-width:480px)
 {
     .list a{
